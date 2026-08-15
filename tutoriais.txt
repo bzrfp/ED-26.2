@@ -1,0 +1,5 @@
+alguns tutoriais para o uso e instalação de ferramentas recomendadas pelos professores
+
+wsl: https://www.ic.unicamp.br/~lehilton/cursos/2s2024/mc202e/tutoriais/instalando-python-wsl/
+gcc: https://www.ic.unicamp.br/~lehilton/cursos/2s2024/mc202e/tutoriais/gcc/
+wls/vs code: https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode
