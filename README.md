@@ -2,9 +2,9 @@ Este repositório contém resoluções para os exercícios propostos na discipli
 
 ## Estrutura do repositório
 
-Os códigos estão separados de acordo com as semanas. Abaixo há uma breve descrição dos conteúdos passados em cada uma delas: 
+Os códigos estão separados de acordo com as listas de exercícios Abaixo há uma breve descrição dos conteúdos passados em cada uma delas: 
 
-s01 - Introdução à linguagem C 
+l01 - Introdução à linguagem C 
 
 ## Linguagem
 
