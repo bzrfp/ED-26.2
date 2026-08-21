@@ -4,7 +4,7 @@ Este repositório contém resoluções para os exercícios propostos na discipli
 
 Os códigos estão separados de acordo com as listas de exercícios Abaixo há uma breve descrição dos conteúdos passados em cada uma delas: 
 
-l01 - Introdução à linguagem C 
+L01 - Introdução à linguagem C 
 
 ## Linguagem
 
