@@ -3,30 +3,33 @@
 int main() {
  
     int horaInicial, minutoInicial, horaFinal, minutoFinal;
-    scanf("%d %d %d %d", &horaInicial, &minutoInical, 
+    scanf("%d %d %d %d", &horaInicial, &minutoInicial, 
     &horaFinal, &minutoFinal);
     
     int horasTotal, minutosTotal;
- 
-    if (horaInical == horaFinal 
-    && minutoInicial == minutoFinal) {
+
+    if (horaFinal == horaInicial && minutoFinal == minutoInicial) {
         horasTotal = 24;
-        minutosTotal = 0;
+        minutosTotal = 0;    
     }
     else { 
-        if (horaFinal > horaInicial) 
-            horasTotal = horaFinal - horaInicial;
-        else if (horaFinal < horaInicial)
-            horasTotal = 24-horaFinal + horaInicial;
-            
-        if (minutoFinal > minutoInicial) 
-            minutossTotal = minutoFinal - minutoInicial;
-        else if (minutoFinal < minutoInicial)
-            minutosTotal = 60-minutoFinal + minutoInicial;
-            
-    }
     
-    printf("O JOGO DUROU %d HORA(S) E %d MINUTO(s)", 
+        if (horaFinal >= horaInicial) 
+            horasTotal = horaFinal - horaInicial;
+        else 
+            horasTotal = 24 - horaInicial + horaFinal;
+ 
+        //qtd minutos
+        if (minutoFinal >= minutoInicial) 
+            minutosTotal = minutoFinal - minutoInicial;
+        else {
+            horasTotal--;
+            if (horasTotal<0)
+                horasTotal = 23;
+            minutosTotal = 60 - minutoInicial + minutoFinal;
+        }
+    }
+    printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", 
     horasTotal, minutosTotal);
  
     return 0;
