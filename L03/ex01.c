@@ -1,3 +1,4 @@
+//corta a palavra a partir de um caractere de entrada
 #include <stdio.h>
 
 int main () {
