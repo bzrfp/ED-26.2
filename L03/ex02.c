@@ -1,3 +1,5 @@
+// da a quantidade de zeros da maior cadeia de zeros em uma mensagem
+
 #include <stdio.h>
 
 int main () {
